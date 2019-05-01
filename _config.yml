@@ -1,0 +1,55 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Venky's Home
+tagline:             'A Jekyll theme'
+description:         'A sandbox of  <a href="http://jekyllrb.com" target="_blank">Jekyll</a> adventures and learnings.'
+url:                 http://vhshenoy.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Venkatesh Shenoy
+  url:               https://twitter.com/veshenoy
+  email:             venkatesh.bms@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-seo-tag
+
+paginate_path: "page:num"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "Venkatesh Shenoy"  
+
+      exclude:
+  - "/vendor/"
+
+# Collections
+collections:
+  - talks
+  
+protocols:
+    fb_image: "/assets/nr-logo.jpg"
+    fb_image_width: 612
+    fb_image_height: 605
+    fb_image_type: "image/jpg"
+
+    twitter_image: "/assets/nr-logo.jpg"
+
+    os_repo: "https://github.com/vhshenoy/vhshenoy.github.io"
+    os_rcs_type: "git"
+    os_src: "git@github.com:vhshenoy.github.io.git"
