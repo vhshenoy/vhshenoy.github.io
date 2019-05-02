@@ -5,8 +5,8 @@ permalink:           pretty
 
 # Setup
 title:               Venky's Home
-tagline:             'A Jekyll theme'
-description:         'A sandbox of  <a href="http://jekyllrb.com" target="_blank">Jekyll</a> adventures and learnings.'
+#tagline:             'A Jekyll theme'
+description:         'A place of adventures and learnings.'
 url:                 http://vhshenoy.github.io
 baseurl:             ''
 paginate:            5
